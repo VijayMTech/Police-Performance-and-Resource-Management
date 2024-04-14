@@ -57,17 +57,18 @@ The data used in this dashboard is sourced from the `FIR_Details_Data.csv` file,
 - Pandas (Data manipulation library)
 - Plotly Express (Visualization library)
 
-## PROTOTYPR
+## PROTOTYPE
 ![Image 1](https://drive.google.com/uc?export=view&id=1ogdK7t5by-IK1LlFYytMEuJYYzrDr3jW)
-![Image 2](https://drive.google.com/uc?export=view&id=HRawkMOoxaUZLgGmt_hnxJloYm4cVO)
-![newplot (1)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/41d7d3e1-9d46-4ce4-b608-99d0f07d87db)
+![Screenshot (1218)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/39a07064-fe8f-4361-a2cd-f8073fa0570f)
+![newplot (6)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/8aba0159-fdd4-4d5c-b5ab-6eaa35a48eb8)
+![newplot (5)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/7df39ef9-9b8c-4d17-9839-fcc42f084ce3)
+![newplot (4)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/a6a07082-db95-4018-8de9-186df0ce3d4c)
+![newplot (3)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/dcefb5de-fa0d-4ad6-ae06-5d3bb87de174)
 
-![Image 3](https://drive.google.com/uc?export=view&id=YourFileID3)
-<div style="display: flex; justify-content: center;">
-    <img src="https://drive.google.com/uc?export=view&id=1ogdK7t5by-IK1LlFYytMEuJYYzrDr3jW" style="margin-right: 10px;">
-    <img src="https://drive.google.com/uc?export=view&id=1ogdK7t5by-IK1LlFYytMEuJYYzrDr3jW" style="margin-right: 10px;">
-    <img src="https://drive.google.com/uc?export=view&id=YourFileID3">
-</div>
+Login and Overall Analysis for DSP
+![Screenshot (1226)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/6dcdeeba-f768-4823-8cef-925a68ac80b3)
+![Screenshot (1224)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/fa0ab0db-287d-4de8-aab4-3a1aa5adf926)
+
 ## Contributors
 [Mahendran]  
 [mahendran.06335@gmail.com]
