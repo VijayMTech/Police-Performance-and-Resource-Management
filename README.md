@@ -59,7 +59,7 @@ The data used in this dashboard is sourced from the `FIR_Details_Data.csv` file,
 
 ## PROTOTYPR
 <div style="display: flex; justify-content: center;">
-    <img src="[https://drive.google.com/uc?export=view&id=YourFileID1](https://drive.google.com/file/d/1ogdK7t5by-IK1LlFYytMEuJYYzrDr3jW/view?usp=sharing](https://drive.google.com/file/d/1ogdK7t5by-IK1LlFYytMEuJYYzrDr3jW/view)" style="margin-right: 10px;">
+    <img src="https://drive.google.com/file/d/1ogdK7t5by-IK1LlFYytMEuJYYzrDr3jW/view" style="margin-right: 10px;">
     <img src="https://drive.google.com/uc?export=view&id=YourFileID2" style="margin-right: 10px;">
     <img src="https://drive.google.com/uc?export=view&id=YourFileID3">
 </div>
