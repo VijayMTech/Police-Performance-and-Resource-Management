@@ -60,8 +60,14 @@ The data used in this dashboard is sourced from the `FIR_Details_Data.csv` file,
 ## PROTOTYPR
 ![Image 1](https://drive.google.com/uc?export=view&id=1ogdK7t5by-IK1LlFYytMEuJYYzrDr3jW)
 ![Image 2](https://drive.google.com/uc?export=view&id=HRawkMOoxaUZLgGmt_hnxJloYm4cVO)
-![Image 3](https://drive.google.com/uc?export=view&id=YourFileID3)
+![newplot (1)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/41d7d3e1-9d46-4ce4-b608-99d0f07d87db)
 
+![Image 3](https://drive.google.com/uc?export=view&id=YourFileID3)
+<div style="display: flex; justify-content: center;">
+    <img src="https://drive.google.com/uc?export=view&id=1ogdK7t5by-IK1LlFYytMEuJYYzrDr3jW" style="margin-right: 10px;">
+    <img src="https://drive.google.com/uc?export=view&id=1ogdK7t5by-IK1LlFYytMEuJYYzrDr3jW" style="margin-right: 10px;">
+    <img src="https://drive.google.com/uc?export=view&id=YourFileID3">
+</div>
 ## Contributors
 [Mahendran]  
 [mahendran.06335@gmail.com]
