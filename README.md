@@ -36,7 +36,7 @@ To run the Police Performance Dashboard locally, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Download the Copy_of_FIR_Data from https://drive.google.com/file/d/1H-8Ze0cpiEg7fNJM4OCeJXHJjwbKIzbm/view?usp=drive_link  and copy it to the folder backend.
+3. Download the Copy_of_FIR_Data [from here](https://drive.google.com/file/d/1H-8Ze0cpiEg7fNJM4OCeJXHJjwbKIzbm/view?usp=drive_link)  and copy it to the folder backend.
 4. In the project directory, you can run:
      ### `npm start
 5. Run the Flask app Api  by executing the script `python flaskapp.py`.
@@ -47,7 +47,7 @@ To run the Police Performance Dashboard locally, follow these steps:
 
 ## Data Source
 The data used in this dashboard is sourced from the `FIR_Details_Data.csv` file, which contains detailed information about FIRs registered by police units.
-## Dataset Link : https://drive.google.com/file/d/1H-8Ze0cpiEg7fNJM4OCeJXHJjwbKIzbm/view?usp=drive_link
+## Dataset Link :[Click here](https://drive.google.com/file/d/1H-8Ze0cpiEg7fNJM4OCeJXHJjwbKIzbm/view?usp=drive_link)
 
 ## Technologies Used
 - ReactJS (Frontend Framework)
@@ -77,7 +77,11 @@ The data used in this dashboard is sourced from the `FIR_Details_Data.csv` file,
 
 ![newplot (3)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/dcefb5de-fa0d-4ad6-ae06-5d3bb87de174)
 
-## Full Prototype Screenshots: https://drive.google.com/drive/folders/1r-FjtKjBnLTNX-QcAuvh0ihRcEeby1BD?usp=drive_link
+## Firebase Realtime Database For Role based Authentication
+
+![Screenshot (1215)](https://github.com/VijayMTech/Police-Performance-and-Resource-Management/assets/82018382/ad16c275-0dce-4237-a475-771858056204)
+
+## Full Prototype Screenshots: [click here](https://drive.google.com/drive/folders/1r-FjtKjBnLTNX-QcAuvh0ihRcEeby1BD?usp=drive_link)
 
 ## Contributors
 ## [Mahendran]  
