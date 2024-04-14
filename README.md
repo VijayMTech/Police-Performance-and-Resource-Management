@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Police Performance Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The Police Performance Dashboard is a web application designed to provide insights into the performance of police units based on various metrics such as FIR stage distribution, complaint mode analysis, victim and accused counts, arrested gender distribution, conviction count, and response time analysis. This dashboard aims to assist law enforcement agencies in evaluating their performance and making data-driven decisions.
 
-## Available Scripts
+## Features
+- **FIR Stage Distribution:** Visualizes the distribution of FIR (First Information Report) stages, including pending FIRs and convictions.
+- **Complaint Mode Analysis:** Analyzes the modes through which complaints are received by the police.
+- **Victim and Accused Counts:** Presents the counts of victims and accused individuals involved in FIRs.
+- **Arrested Gender Distribution:** Displays the gender distribution of individuals arrested in connection with FIRs.
+- **Conviction Count:** Shows the total count of convictions achieved by the police unit.
+- **Response Time Analysis:** Analyzes the response time of the police unit to incidents reported in FIRs.
 
-In the project directory, you can run:
+## Usage
+### Station Login
+1. **Authenticate:**
+    - Enter the Station ID and password to log in.
+2. **Select Parameters for Individual Performance Analysis:**
+    - **Select IOName:** Choose the Investigating Officer (IOName) for detailed analysis.
+    - **Select Year:** Select the year for which you want to view the performance metrics.
+3. **View Dashboard:**
+    - After selecting the required parameters, the dashboard will dynamically update to display the selected metrics for individual performance.
 
-### `npm start`
+### DSP Station Login
+1. **Authenticate:**
+    - Enter the DSP Station ID and password to log in.
+2. **Select Parameters for Overall Performance Analysis:**
+    - **Select District:** Choose the district for which you want to view the overall performance.
+    - **Select UnitName:** Choose the police unit within the selected district.
+    - **Select Year:** Select the year for which you want to view the performance metrics.
+3. **View Dashboard:**
+    - After selecting the required parameters, the dashboard will dynamically update to display the selected metrics for overall performance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Running
+To run the Police Performance Dashboard locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone this repository to your local machine.
+2. Install the required dependencies by running `pip install -r requirements.txt`.
+3. Download the Copy_of_FIR_Data from https://drive.google.com/file/d/1H-8Ze0cpiEg7fNJM4OCeJXHJjwbKIzbm/view?usp=drive_link  and copy it to the folder backend.
+4. In the project directory, you can run:
+     ### `npm start
+5. Run the Flask app Api  by executing the script `python flaskapp.py`.
+6. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+7. Role based Login is performed (Station Login or DSP Login(Rounded Profile Icon)
+8. Access the dashboard through your web browser.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Data Source
+The data used in this dashboard is sourced from the `FIR_Details_Data.csv` file, which contains detailed information about FIRs registered by police units.
+## Dataset Link : https://drive.google.com/file/d/1H-8Ze0cpiEg7fNJM4OCeJXHJjwbKIzbm/view?usp=drive_link
 
-### `npm run build`
+## Technologies Used
+- ReactJS (Frontend Framework)
+- Firebase (Realtime Database Authentication(JWT))
+- Flask (Python Framework for building API's)
+- Streamlit (Python framework for building web applications)
+- Pandas (Data manipulation library)
+- Plotly Express (Visualization library)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## PROTOTYPR
+<div style="display: flex; justify-content: center;">
+    <img src="https://drive.google.com/uc?export=view&id=YourFileID1](https://drive.google.com/file/d/1ogdK7t5by-IK1LlFYytMEuJYYzrDr3jW/view?usp=sharing" style="margin-right: 10px;">
+    <img src="https://drive.google.com/uc?export=view&id=YourFileID2" style="margin-right: 10px;">
+    <img src="https://drive.google.com/uc?export=view&id=YourFileID3">
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributors
+[Mahendran]  
+[mahendran.06335@gmail.com]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Amirtha Sagar K]  
+[amirthasagar2003@gmail.com]
 
-### `npm run eject`
+[Vikas J]  
+[vikasjayakumar41902@gmail.com]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
