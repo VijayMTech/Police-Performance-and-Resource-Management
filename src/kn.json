@@ -1,0 +1,30 @@
+{
+    "navbar": {
+      "/":"ಕೆಎಸ್‌ಪಿ ಡೇಟಾಥಾನ್ 2024",
+      "home": "ಹೋಮ್",
+      "about": "ಬಗ್ಗೆ",
+      "services": "ಸೇವೆಗಳು",
+      "contact": "ಸಂಪರ್ಕಿಸಿ",
+      "stationlogin": "ನಿಮ್ಮ ನಿಲ್ದಾಣದ ಲಾಗಿನ್ ಮಾಡಿ",
+      "login": "ಲಾಗಿನ್",
+      "logout": "ಲಾಗೌಟ್"
+    },
+    "secondaryNavbar": {
+      "aboutUs": "ನಮ್ಮ ಬಗ್ಗೆ",
+      "history": "ಇತಿಹಾಸ",
+      "missionVision": "ಉದ್ದೇಶಗಳು ಮತ್ತು ದೃಷ್ಟಿ",
+      "leadership": "ನಾಯಕತ್ವ",
+      "administration": "ನಿರ್ವಾಹಣೆ",
+      "departments": "ವಿಭಾಗಗಳು",
+      "staff": "ಸ್ಟಾಫ್",
+      "training": "ತರಬೇತಿ",
+      "policeTraining": "ಪೊಲಿಸ್ ತರಬೇತಿ",
+      "specializedTraining": "ವಿಶೇಷ ತರಬೇತಿ",
+      "continuingEducation": "ಮುಂದುವರಿದ ಶಿಕ್ಷಣ",
+      "policeUnits": "ಪೊಲಿಸ್ ಘಟಕಗಳು ಮತ್ತು ವಿಶೇಷ ಘಟಕಗಳು",
+      "patrolUnits": "ಪ್ಯಾಟ್ರೋಲ್ ಘಟಕಗಳು",
+      "investigationUnits": "ಸಂಶೋಧನಾ ಘಟಕಗಳು",
+      "specialResponseTeams": "ವಿಶೇಷ ಸ್ಪಂದನ ತಂತ್ರಗಳು"
+    }
+  }
+  

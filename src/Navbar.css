@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,117,255,1) 100%);
+    
+    /* background: rgb(0,95,255);
+    background: linear-gradient(90deg, rgba(0,95,255,1) 0%, rgba(0,207,255,1) 100%); */
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .navbar-logo,.logolink{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fffafa;
+    text-decoration: none;
+  }
+   
+  .navbar-logo,.logolink{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fafafa;
+    text-decoration: none;
+  }
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-link,.link {
+    cursor: pointer;
+    position: relative;
+    text-decoration: none; /* Remove underline */
+    list-style-type: none;
+    color: white;
+  }
+  .navbar-link:hover,.link:hover{
+    color: black;
+
+  }
+  .navbar-link svg {
+    margin-left: 5px;
+  }
+  .profile-icon {
+    cursor: pointer;
+    width: 50px;
+    font-size: 1.5rem; /* Adjust size as needed */
+    margin-right: 10px;  /*Add spacing between icon and text */
+  }
+  
+  /* Add more styling as needed */
+  
+  
+  .dropdown-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 120%;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .droplink{
+    text-decoration: none;
+    color: black;
+  }
+  .droplink:hover{
+    background-color: white;
+  }
+  
+  .navbar-link:hover .dropdown-menu{
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #1111;
+  }

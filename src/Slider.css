@@ -1,0 +1,49 @@
+.slider-container {
+  margin-top: 25px;
+  position: relative;
+  width: 100%;
+  height: 600px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.navigation-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.navigation-buttons button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.navigation-buttons button.active {
+  background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,140,240,1) 0%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,140,240,1) 0%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,140,240,1) 0%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#068cf0",GradientType=1);
+}

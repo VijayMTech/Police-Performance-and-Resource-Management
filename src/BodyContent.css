@@ -1,0 +1,18 @@
+.blog-container {
+    display: flex;
+}
+
+.blog-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.image-frame {
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+}
+
+.image-frame img {
+    width: 100%;
+    height: auto;
+}

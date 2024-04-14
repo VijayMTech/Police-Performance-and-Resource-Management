@@ -1,0 +1,20 @@
+import streamlit as st
+import pandas as pd
+
+# Load CSV data
+@st.cache_resource()  # Cache resource to avoid repeated fetching
+def load_data(file_path):
+    return pd.read_csv(file_path)
+
+# Main app code
+def main():
+    st.title('Sample Streamlit App')
+
+    # Load data
+    data = load_data('backend/Copy of FIR_Details_Data.csv')
+
+    # Display data
+    st.write(data)
+
+if __name__ == '__main__':
+    main()

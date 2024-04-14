@@ -1,0 +1,30 @@
+{
+    "navbar": {
+      "/"   :"KSP Datathon 2024",
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact",
+      "stationlogin": "Station Login",
+      "login": "Log in",
+      "logout": "Log out"
+    },
+    "secondaryNavbar": {
+      "aboutUs": "About Us",
+      "history": "History",
+      "missionVision": "Mission & Vision",
+      "leadership": "Leadership",
+      "administration": "Administration",
+      "departments": "Departments",
+      "staff": "Staff",
+      "training": "Training",
+      "policeTraining": "Police Training",
+      "specializedTraining": "Specialized Training",
+      "continuingEducation": "Continuing Education",
+      "policeUnits": "Police Units & Special Units",
+      "patrolUnits": "Patrol Units",
+      "investigationUnits": "Investigation Units",
+      "specialResponseTeams": "Special Response Teams"
+    }
+  }
+  
